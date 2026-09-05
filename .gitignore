@@ -1,3 +1,16 @@
+# Секреты
 .env
 *.env
-.env.local
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Логи
+*.log
