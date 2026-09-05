@@ -142,6 +142,7 @@ def посмотреть_одно_обращение(id):
     курсор.execute("""
     SELECT
         obr.id,
+        obr.telegram_id,
         users.fam || ' ' || users.first_name || ' ' || users.second_name,
         obr.text,
         obr.answer_by,
